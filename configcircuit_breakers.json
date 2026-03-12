@@ -1,0 +1,25 @@
+{
+  "trading": {
+    "daily_profit_target_usd": 5.0,
+    "daily_max_loss_usd": 10.0,
+    "max_position_duration_minutes": 30,
+    "max_consecutive_losses": 3,
+    "pause_after_consecutive_losses_hours": 1,
+    "min_order_size_usd": 50.0,
+    "take_profit_usd": 0.20,
+    "stop_loss_usd": 0.50
+  },
+  "market": {
+    "volatility_threshold_pct": 0.3,
+    "max_spread_multiplier": 2.0,
+    "pause_on_news": true,
+    "atr_period_minutes": 5
+  },
+  "system": {
+    "max_api_errors": 5,
+    "firebase_timeout_seconds": 300,
+    "heartbeat_interval_seconds": 5,
+    "dashboard_port": 8000,
+    "log_level": "INFO"
+  }
+}
